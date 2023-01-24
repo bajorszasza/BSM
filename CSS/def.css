@@ -4,6 +4,12 @@ html {
     margin: 0px;
 }
 
+
+section {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: transparent;
     padding: 0px;
