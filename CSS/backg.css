@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+
 html {
-    background-image: url(https://trello.com/1/cards/63ce520f56bcb40293c483b7/attachments/63ce520f56bcb40293c483d8/previews/63ce521056bcb40293c483e5/download/image.png);
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711);
     background-size: cover;
     background-attachment: fixed;
 }   
