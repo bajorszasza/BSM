@@ -6,48 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="CSS/def.css">
+        <link rel="stylesheet" href="../CSS/def.css">
         <link rel="icon" href="https://icons.veryicon.com/png/o/miscellaneous/simple-linetype-icon/eye-43.png" type="images/x-icon">
         <title>OKV</title> 
     </head>                                                                                       <!--Onclick, felhoz a laptetejére, nincs nyulka piszka-->
     <body>
-      <button onclick="topFunction()" id="gomb" title="Lap teteje" type="button" class="btn" style="background-color: #008080;">Lap teteje</button>
-      <script src="js/scroll.js"></script>
+      <button onclick="topFunction()" id="gomb" title="Lap teteje" type="button" class="btn" style="background-color: #008080; color: white;">Lap teteje</button>
+      <script src="../JS/scroll.js"></script>
         <nav class="navbar sticky-top" style="background-color: #008080;">
           <div class="container-fluid">
-              <a class="navbar-brand mb-0 h1">OKV</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">trt</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">trt</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">trt</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      trt
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">trt</a></li>
-                      <li><a class="dropdown-item" href="#">trt</a></li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item" href="#">trt</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <h1 class="title" style="margin:auto;">
+              <span class="title-word title-word-1">O</span>
+              <span class="title-word title-word-2">K</span>
+              <span class="title-word title-word-3">V</span>
+            </h1>
           </div>
         </nav>
         <div class="container border border-5 border-white p-0">
@@ -67,16 +39,17 @@
                 <i>A számítógépes látás szindróma egy gyűjtőfogalom az olyan tünetekre, amiket a sok okoseszközhasználat vált ki.</i>
                 <br>
                 <i>A gyerekeknél ugyanúgy kialakulhat, mint a felnőttek esetében.</i>
-
+                <br id="szaraz">
               </p>
+          </div>
+          <div class="row">
+            <div class="col-6 text-sm-start fs-4">
               <p class="ps-5 pe-5 text-wrap">
                 <h2><u>Kiszáradás</u></h2>
-                <br>
                 Amikor okoseszközök képernyőit nézzük, feleannyit pislogunk, mint egyébként, amitől a szemünk hamar kiszáradhat.
-
               </p>
               <p class="ps-5 pe-5 text-wrap">
-                Tünetek:
+                <h3>Tünetek:</h3>
                 <ul class="ps-5">
                     <li>Vörös szem</li>
                     <li>Homályos látás</li> 
@@ -86,12 +59,11 @@
                     <li>Fáradt szemek</li>
                     <li>Szemmegerőltetés</li>
                     <li>Könnyezés</li>
-
                 </ul>
               </p>
               <p class="ps-5 pe-5 text-wrap">
                 Hosszútávú hatása:
-                <ul class="ps-5">
+                <ul>
                   <li>Tartós szemmegerőltetés</li>
                   <li>Fejfájás</li>
                   <li>Stressz</li>
@@ -99,74 +71,69 @@
               </p>
               <p class="ps-5 pe-5 text-wrap">
                 Megoldás:
-                <ul class="ps-5">
-                  <li>Szemcsepp/Műkönny (tartósítószermentes)</li>
-                  <li>Párásító</li>
+                <ul>
+                  <li>Szemcsepp/ Műkönny (lehetőleg tartósíytószermentes)</li>
+                  <li>Párásító az irodába</li>
                 </ul>
               </p>
+              <br>
+            </div>
+            <div class="col-lg-6 col-sm-12 text-center mx-auto pt-5">
+              <div>
+                <img src="../img/eyedropp.png" alt="Szemcsepp" class="img-fluid rounded text-center mx-auto" width="300" height="300">
+              </div>
+              <div>
+               <img src="../img/redeye.png" alt="VörösSzem" class="img-fluid rounded text-center mx-auto" width="300" height="300">
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-6 col-lg-6 col-md-6 col-sm-12">
-              <p>
-                <div class="header text-center pt-4">
+            <div class="row">
+              <div class="col-6 text-sm-start fs-4">
+                <p class="ps-5 pe-5 text-wrap">
                   <h2><u>Fényérzékenység</u></h2>
-                </div>
-                <br>
-                <div class="ps-5 pe-5 text-wrap fs-5">
                   A legtöbben tudják, hogy az ultraibolya (UV) kék fény káros hatással van a szemre (és a bőrre).
-                </div>
-              </p>
-              <p>
-                <div class="ps-5 pe-5 text-wrap fs-5">
+                  <br>
                   A mesterséges LED képernyők ehhez hasonló ibolyakék fénnyel rendelkeznek, ami szintén káros hatású, ha akadály nélkül hatol át a szem védőrétegén egészen hátra a retináig.
-                </div>
-              </p>
-              <p>
-                <div class="ps-5 pe-5 text-wrap fs-5">
+                </p>
+                <p class="ps-5 pe-5 text-wrap">
                   Megoldás:
                   <ul>
                     <li>Kékfény védő</li>
-                    <li>Matt képernyővédő (éles fény és villogás ellen</li>
+                    <li>Matt képernyővédő (éles fény és villogások ellen)</li>
                   </ul>
-                </div>
-              </p>
-              <div class="col-6 text-center col-lg-6 col-md-6 col-sm-12">
-                <img src="https://o.remove.bg/downloads/497378c0-76cf-4223-b916-a07e19a3706f/image-removebg-preview.png" alt="kép" class="img-fluid rounded text-center">
+                </p>
+              </div>
+              <div class="col-lg-6 col-sm-12 text-center mx-auto">
+                <img src="../img/bluelight.png" alt="Kékfény" class="img-fluid rounded text-center mx-auto" width="300" height="300">
               </div>
             </div>
-            <div class="col-12 col-lg-4 col-md-12 col-sm-12">
-              <p>
-                <div class="header text-center pt-4">
+            <div class="row">
+              <div class="col-6 text-sm-start fs-4">
+                <p class="ps-5 pe-5 text-wrap">
                   <h2><u>Fókuszálási nehézség</u></h2>
-                </div>
-                <br>
-                <div class="ps-5 pe-5 text-wrap fs-5 text-center text-end">
                   A folyamatos képernyőre fókuszálás megerőlteti a szemünket, főleg, ha közelről és rossz helyzetből nézzük azt.
-              </p>
-              <p>
-                <div class="ps-5 pe-5 text-wrap fs-5">
+                  <br>
                   Minimum egy karnyi távolságra érdemes ülni a számítógéptől, egy kicsit lefelé nézve rá. 
-                </div>
-              </p>
-              <p>
-                <div class="ps-5 pe-5 text-wrap fs-5">
+                </p>
+                <p class="ps-5 pe-5 text-wrap">
                   Megoldás:
                   <ul>
                     <li>20-20-20</li>
-                      <ul>
-                        <li>20 percenként</li>
-                        <li>20 másodpercig fókuszáljunk egy</li>
-                        <li>20 lábra (kb. 6m) lévő tárgyra</li>
-                      </ul>
-                    <li>Gyakori pihenők</li>
-                    <li>Sok pislogás*</li>
+                    <ul>
+                      <li>20 percenként</li>
+                      <li>20 másodpercig fókuszáljunk egy</li>
+                      <li>20 lábra (kb. 6m) lévő tárgyra</li> 
+                    </ul>
+                    <li>Tartsunk gyakori pihenőket</li>
+                    <li><a href=#szaraz>Pislogjunk sokat</a></li>
                   </ul>
+                </p>
                 </div>
-              </p>
+                <div class="col-lg-6 col-sm-12 text-center mx-auto pt-5">
+                  <img src="../img/sasszem.png" alt="Sasszemklinika" class="img-fluid rounded text-center mx-auto" width="300" height="300">
+                </div>
             </div>
           </div>
-        </div>
         <footer>
           <div class="container text-center pt-5">
             <div>
