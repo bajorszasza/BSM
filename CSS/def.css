@@ -58,7 +58,27 @@ body {
     --color-3: #B4CFAC;
   }
 
-  
+  .left-bottom-corner {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+  }
+
+#gomb2 {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0s background-color;
+  transition: transform 0.2s;
+}
+
+#gomb2:hover, #gomb2:active {
+    background-color: rgb(24,148,140);
+    transition-delay: 0.3s;
+    transform: scale(0.85);
+}
+
   @keyframes color-animation {
     0%    {color: var(--color-1)}
     32%   {color: var(--color-1)}
