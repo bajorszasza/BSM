@@ -18,7 +18,7 @@ img {
     border-radius: 10%;
     transition: 0s background-color;
     transition: transform 0.5s;
-    background-color: rgb(42, 154, 189);
+    background-color: rgb(17, 104, 155);
 }
 
 img:hover {
