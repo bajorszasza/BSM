@@ -12,6 +12,13 @@
         <title>OKV</title> 
     </head>  
     <body>
+      <script>
+        $('a.tobblink').click(function(e) {
+            e.preventDefault();
+            window.open('https://into.hu/hirek/okostelefon-fuggoseg-es-te-is-fuggo-vagy');
+            window.open('https://nlc.hu/ezvan/20160823/telefon-fuggoseg-nok-ferfiak/');
+        });
+      </script>
       <button onclick="topFunction()" id="gomb" title="Lap teteje" type="button" class="btn"  style="background: linear-gradient(45deg, #b2ebe0, #5e96ae); color: white;">Lap teteje</button>
       <script src="../JS/scroll.js"></script>
       <button class="left-bottom-corner" id="gomb2" style="background: linear-gradient(45deg, #b2ebe0, #5e96ae); color: white;">
@@ -106,7 +113,7 @@
             <hr class="bg-primary opacity-100">
             <div class="row">
               <div class="col-12">
-                <a href="#https://into.hu/hirek/okostelefon-fuggoseg-es-te-is-fuggo-vagy" target="_blank">
+                <a href="#" class="tobblink">
                   <img src="https://img.icons8.com/ios-filled/256/iphone-x.png" alt="iphone" class="img-fluid ps-3 pe-3 mt-5 mb-5">
                 </a>
               </div>
