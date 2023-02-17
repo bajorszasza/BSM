@@ -12,7 +12,7 @@ section {
 }
 
 body {
-    background-color: transparent;
+  background-color: transparent;
     padding: 0px;
 }
 
@@ -56,16 +56,6 @@ body {
     --color-1: #b2d88e;
     --color-2: #E4A9A8;
     --color-3: #B4CFAC;
-  }
-
-  #icon {
-    box-shadow: 8px 8px 10px black;
-    border-radius: 10%;
-    transition: 0s background-color;
-    transition: transform 0.5s;
-    --color-1: #DF8453;
-    --color-2: #DBAD4A;
-    --color-3: #b2d88e;
   }
 
   .left-bottom-corner {
